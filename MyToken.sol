@@ -11,7 +11,7 @@ contract MyToken {
     constructor(string memory _name, string memory _abbrv) {
         tokenName = _name;
         tokenAbbrv = _abbrv;
-        totalSupply = 0;
+        totalSupply = 10000;
     }
 
     // Function to mint new tokens
